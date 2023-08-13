@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Universitys</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
+        integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="main-container">
+        <h1>Universities Search By Country</h1>
+        <div class="search-container">
+            <form action="#">
+                <!-- <div class="search-button">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div> -->
+                <button type="button" class="search-icon">
+                    <i class="fas fa-search"></i>
+                  </button>
+                <div>
+                    <input type="text" class="input" placeholder="Search university">
+                </div>
+                <div class="search-button-div">
+                <button class="search-btn button">Search</button>
+            </div>
+            </form>
+        </div>
+        <div class="lists">
+        <ol id="list">
+            <!-- <li></li> -->
+        </ol>
+    </div>
+    </div>
+
+    <script src="university.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</body>
+
+</html>
